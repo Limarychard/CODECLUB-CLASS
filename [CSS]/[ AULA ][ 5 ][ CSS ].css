@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    background-color: green;
+    height: 120px;
+    width: 120px;
+    margin-top: 100px;
+    display: inline;;
+}

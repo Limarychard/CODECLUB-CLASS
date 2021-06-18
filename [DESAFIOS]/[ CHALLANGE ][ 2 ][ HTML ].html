@@ -1,0 +1,139 @@
+<!-- REQUISITOS DO DESAFIO
+
+[X] Retirar todas as tags <br> e manter o layout sem alterações visuais.
+[X] Tirar o fieldset e manter o layout sem alterações visuais.
+
+    - Ao passar o mause sobre os botões Submit e Reset:  
+[X] Trocar a cor do fundo.
+[X] Aumetnar o botão.
+[X] Trocar a cor da letra.
+[X] Trocar a cor da borda.
+[X] O cursor terá que ser o da "mãozinha".
+
+[X] Alterar cores da borda de todos os inputs.
+[ ] Alterar a fonte do projeto para "Nunito".
+[ ] Alterar o background do formulário.
+[ ] Alterar a cor e tamanho dos textos e dos Labels.
+
+-->
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./[ CHALLANGE ][ 2 ][ CSS ].css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <h3 class="title-register"> Register </h3>
+
+            <form action="" method="POST" enctype="multipart/form-data">
+
+                <label for="name"> Name </label>
+                <input type="text" name="nome" id="name" required>
+
+
+
+                <label for="email"> Email </label>
+                <input type="email" name="email" id="email" required>
+
+
+
+                <label for="age"> Age </label>
+                <input type="number" name="age" id="age" required min="12" step="1">
+
+
+
+                <label for="birth-date"> birth date </label>
+                <input type="date" name="birth-date" id="birth-date" required>
+
+
+
+                <label for="have-account"> Where do you have an account: </label>
+
+                <input type="checkbox" name="Instagram" id="have-account">
+                <label class="input-inline" for="Instagram"> Instagram </label>
+
+                <input type="checkbox" name="Facebook" id="have-account">
+                <label class="input-inline" for="Facebook"> Facebook </label>
+
+                <input type="checkbox" name="Youtube" id="have-account">
+                <label class="input-inline" for="Youtube"> Youtube </label>
+
+
+
+                <label for="gender"> Sexo </label>
+
+                <input type="radio" name="gender" id="gender" value="masculine">
+                <label class="input-inline" for="masculine"> Masculine </label>
+
+                <input type="radio" name="gender" id="gender" value="feminine">
+                <label class="input-inline" for="feminine"> Feminine </label>
+
+
+
+                <div class="eyer-color">
+
+                    <label for="eye-color"> Eye color </label>
+                    <input type="color" name="eye-color" id="eye-color">
+
+                </div>
+
+
+
+                <label for="biography"> Biography </label>
+                <textarea name="bio" id="biography"></textarea>
+
+
+                <div>
+
+                    <label class="input-inline" for="profile-picture"> Profile picture </label>
+                    <input type="file" name="arquivo" accept="images/*" id="profile-picture">
+
+                </div>
+
+
+                <label class="input-block " for="phone-number"> Phone number </label>
+                <input type="tel" name="phone-number" id="phone-number">
+
+
+
+                <label class="input-block " for="facebook-profile-link"> Facebook profile link </label>
+                <input type="url" name="url" id="facebook-profile-link">
+
+
+
+                <label class="input-block " for="password"> Password </label>
+                <input type="password" name="password" id="password" min="6" max="8" required>
+
+                <!-- A TAG required TORNA O INPUT OBRIGATÓRIO -->
+
+
+
+                <div>
+
+                    <button class="button-reset" type="reset" name="reset"> Reset </button>
+                    <button class="button-submit" type="submit" name="submit"> Submit </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>

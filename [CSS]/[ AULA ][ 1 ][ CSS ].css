@@ -1,0 +1,25 @@
+:root{
+    font-size: 8px;
+}
+
+h1 {
+    font-size: 1px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+#div-pai {
+    font-size: 32px;
+    background-color: blue;
+    width: 30vw;
+    height: 30vh;
+}
+
+#div-filha {
+    font-size: 2em;
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}

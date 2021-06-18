@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+}
+
+.div-dad {
+    height: 350px;
+    width: 350px;
+    background-color: blue;
+    position: static;
+    bottom: 40px;
+}
+
+.div-son {
+    height: 150px;
+    width: 150px;
+    background-color: gold;
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
+.div-father {
+    height: 350px;
+    width: 350px;
+    background-color: red;
+    position: sticky;
+    margin-top: 250px;
+    bottom: 200px; 
+}
+
+.div-baby {
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+}
+
+.div-dad2 {
+    height: 350px;
+    width: 350px;
+    background-color: slategray;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.div-son2 {
+    height: 150px;
+    width: 150px;
+    background-color: turquoise;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.div-father2 {
+    height: 350px;
+    width: 350px;
+    background-color: tomato;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.div-baby2 {
+    height: 150px;
+    width: 150px;
+    background-color: chocolate;
+}
