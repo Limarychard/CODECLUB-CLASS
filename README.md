@@ -1,1 +1,0 @@
-# CODECLUB-CLASS
