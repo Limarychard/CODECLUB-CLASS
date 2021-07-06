@@ -1,1 +1,1 @@
-console.log("Aparece aqui") /* é uma maneira de mostrar oque está acontecendo na tela */
+console.log("Aparece aqui") /* É UMA MANEIRA DE MOSTRAR OQUE ESTÁ ACONTECENDO NA TELA */
