@@ -5,8 +5,8 @@
     - Você precisa desenvolver uma lógica forte, para enfrentar qualquer desafio 
     - Desenvolver racíocionio lógico 
 
-[ ] Faça um programa que SOME 2 números
-[ ] Faça um programa que multiplique 2 números e o resultado adicione 10
+[X] Faça um programa que SOME 2 números
+[X] Faça um programa que multiplique 2 números e o resultado adicione 10
 [ ] Faça um programa que encontre a raiz quadrada de um número, multiplique o resultado por 10 e divida por 33
 [ ] Faça um programa que inicie com dois nomes, e o programa imprima na tela o seguinte dado: 
     Olá, meu nome é (nome 1) e meu partner do CodeClub é (nome2)
