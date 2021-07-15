@@ -1,11 +1,11 @@
 /* OPERADORES LÓGICOS //       PARA FAZER O SINAL | -> é preciso Alt + 124 NO Keypad
  
-&&  -> E    // FILHO OBEDIENTE 
+&&  -> E    // FILHO OBEDIENTE              TENDO UM FALSE O RESULTADO SERÁ FALSE
     true && true = true
     true && false = false 
     false && false = true
 
-||  -> Ou   // FILHO ESPERTINHO 
+||  -> Ou   // FILHO ESPERTINHO         TENDO UM TRUE O RESULTADO SERÁ TRUE
     true  || true = true
     true  || false = true
     false  || false = false 

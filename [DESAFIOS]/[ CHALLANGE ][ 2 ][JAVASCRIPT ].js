@@ -4,16 +4,16 @@
 - Você precisa desenvolver uma lógica forte, para enfrentar qualquer desafio.
 - Desenvolver raciocínio lógico
 
-[ ] Faça um programa que compare um número com 10 e 
+[X] Faça um programa que compare um número com 10 e 
     imprime na tela "o número é maior, o número é menor o número é igual"
-[ ] Faça um programa que verifica se uma pessoa é brasileira ou não. 
+[X] Faça um programa que verifica se uma pessoa é brasileira ou não. 
     // DEVE SER UM OBJETO
-[ ] Faça um programa que gere um número aleatório entre 1 e 10, esse número é o número 'ganhador'. 
+[X] Faça um programa que gere um número aleatório entre 1 e 10, esse número é o número 'ganhador'. 
     Então ele também irá gerar um número aleatório entre 1 e 10, e verifica se a pessoa ganhou ou não. 
     Em caso de ter ganhado, mostra o prêmio, se não ganhou, mostra outra mensagem.
 
 
-[ ] Faça um programa que receba 3 números inteiros, e deve imprimir, qual é o maior, qual é o menor.
+[X] Faça um programa que receba 3 números inteiros, e deve imprimir, qual é o maior, qual é o menor.
 
 
 [ ] Crie 5 objetos nesse formato
