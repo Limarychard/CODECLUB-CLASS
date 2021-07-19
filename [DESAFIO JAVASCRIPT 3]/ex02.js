@@ -9,4 +9,4 @@ const tabuada = (multiplicado) => {
     }
 }
 
-tabuada(7)
+tabuada(246)

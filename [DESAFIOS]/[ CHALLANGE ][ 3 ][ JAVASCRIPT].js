@@ -1,17 +1,17 @@
 /*
 
-[ ] Escreva um programa onde, você chame uma função enviando um número, 
+[X] Escreva um programa onde, você chame uma função enviando um número, 
     a função deve imprime na tela os número de 1 até o número que você enviou
-[ ] Escreva um programa onde, você chame uma função enviando um número (aceitar somente valores entre 1 e 10) 
+[X] Escreva um programa onde, você chame uma função enviando um número (aceitar somente valores entre 1 e 10) 
     e escrever a tabuada de 1 a 10 do valor lido.
-[ ] Escreva um programa onde, você chame uma função, e ela diga a hora exata! 
-[ ] Escreva um programa onde, você chame uma função, e ela diga que ano estamos! 
-[ ] Escreva um programa onde, você chame uma função mandando dois argumentos, 2 números, 
+[X] Escreva um programa onde, você chame uma função, e ela diga a hora exata! 
+[X] Escreva um programa onde, você chame uma função, e ela diga que ano estamos! 
+[X] Escreva um programa onde, você chame uma função mandando dois argumentos, 2 números, 
     e a função responde qual número é maior
 
 
 
-[ ] A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e número de filhos. 
+[X] A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e número de filhos. 
     A prefeitura deseja saber: 
         - média do salário da população; 
         - média do número de filhos; 
@@ -21,7 +21,7 @@
 
 
 
-[ ] Faça um programa onde, você chame uma função que calcule a taxa mensal de juros de um investimento. 
+[X] Faça um programa onde, você chame uma função que calcule a taxa mensal de juros de um investimento. 
     - Você deve enviar como argumentos da função 
         - Valor inicial investido 
         - Valor atual do investimento 
@@ -34,7 +34,7 @@
 
 
 
-[ ] Escreva um programa onde, você cria uma função geradora de desconto. 
+[X] Escreva um programa onde, você cria uma função geradora de desconto. 
     - A função aceita 4 parâmetros (Nome do cliente, valor total da compra, 
         um booleano que diz se é a primeira compra do cliente ou não, 
         um booleando que diz se o cliente vai pagar a vista ou não)
