@@ -17,4 +17,4 @@ const investment = (initial_value, current_value, time) => {
 
 }
 
-investment(500, 1000, 24)
+investment(5000, 9000, 12)

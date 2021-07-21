@@ -122,4 +122,4 @@ function calcule_discont(name, value, is_first_purshase, is_cash_payment){
 
 }
 
-calcule_discont("Rychard", 789, true, false )
+calcule_discont("Rychard", 450, false, false)
