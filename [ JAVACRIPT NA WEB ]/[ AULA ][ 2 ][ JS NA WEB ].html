@@ -5,11 +5,21 @@
         - getElementById() // Trás apenas um elemento (element)
         - getElementByClassName() // Trás diversos elementos n(HTML Collection)
         - getElementByTagName // Trás diversos elementos (HTML Collection)
+        - getElementByName // Trás os elementos com o nome selecionado (NodeList)
 
         - querySelector // Trás apenas um elemento, o primiero que encontrar (element)
-        - querySelector // Trás TODOS os elementos que encontrar (NodeList)
+        - querySelectorAll // Trás TODOS os elementos que encontrar (NodeList)
 
     - NodeList x Html Collection
+
+    Um HTMLCollection contém apenas tags de elemento e um NodeList contém todas as tags.
+
+        - Existem quatro tipos de nós:
+
+            1.tag do elemento
+            2.tag de atributo
+            3.tag de texto
+            4.tag de comentário
 
 -->
 
@@ -29,6 +39,12 @@
         <body>
 
             <h1 id="main-text"> Meu primeiro site </h1>
+
+            <input  name="my-input" value="valor-do-input">
+
+            <input  name="my-input">
+
+            <img src="../[ IMAGES ]/eu.jpg"
 
             <p class="paragraph"> Meu parágrafo </p>
 
