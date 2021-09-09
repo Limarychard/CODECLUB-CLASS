@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid #9758A6;
+    display: flex;    
+    width: 400px;
+    flex-wrap: nowrap;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #CDD728;
+    border: 5px solid #9758A6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+/*  flex-wrap:         
+        nowarp => é o padrão, ou não quebra linha; 
+        wrap => ele quebra a linha, isso dependendo do tamanho do width;
+        wrap-reverse => ele quebra a linha mas deixando de trás para frente;
+        
+*/
+   

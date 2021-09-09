@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid #9758A6;
+    display: flex;    
+    height: 700px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #CDD728;
+    border: 5px solid #9758A6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* 
+    flex-basis => delimita o tamanho dos meus itens;
+    flex-grow => ele controla quanto o item vai crescer no espaço vago;
+    flex-shrink => vai controlar quanto que o item vai encolher;
+    flex => um atalho para todos os 3 em cima; 
+    order => ele inverte a ordem dos itens 
+    aling-self => posso alinhar apenas um item
+
+*/ 

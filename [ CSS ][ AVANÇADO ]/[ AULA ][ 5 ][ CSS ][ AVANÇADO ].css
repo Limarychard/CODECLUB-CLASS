@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid #9758A6;
+    display: flex;    
+    height: 800px;
+    width: 800px;
+}
+
+/*
+    MAIN AXIS - Eixo principal 
+    CROSS AXIS - Eixo secundário
+*/
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #CDD728;
+    border: 5px solid #9758A6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+/*  justify-content:     ELE É BASEADO NO EIXO PRINCIPAL    
+        center => alinha nossos itens ao centro no nosso eixo principal;
+        flex-end => alinha os itens no final;
+        flex-start => alinha ao começo;
+        space-around => ele cria um espaço em volta dos itens 
+        space-between => cria um espaço entre um item e outro 
+*/
+   

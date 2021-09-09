@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid #9758A6;
+    display: flex;    
+    height: 900px;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center; /* JUNTA TODO O MEU ESPAÇO E ALINHA */
+    align-content: center; /* JUNTA TODO MUNDO PARA DEPOIS ALINHAR*/ 
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #CDD728;
+    border: 5px solid #9758A6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* gap: => faz um espaçamento entre os itens
+
+*/ 

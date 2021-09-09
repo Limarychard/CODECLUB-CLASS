@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid #9758A6;
+    display: flex;    
+    height: 700px;
+    width: 800px;
+}
+
+/*
+    MAIN AXIS - Eixo principal 
+    CROSS AXIS - Eixo secundário
+*/
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #CDD728;
+    border: 5px solid #9758A6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+/*  aling-itens: ELE É BASEADO NO EIXO SECUNDÁRIO
+        center => alinha os itens ao centro;
+        flex-end => alinha ao final;
+        flex-start => alinha ao começo;
+        stretch => ele estica os itens para que eles ocupem a coluna/linha inteira 
+*/
